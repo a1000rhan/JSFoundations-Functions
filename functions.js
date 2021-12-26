@@ -36,8 +36,7 @@ function isOdd(n) {
  * oddsSmallerThan(15) -> 7
  */
 function oddsSmallerThan(n) {
-  if(n%2!=0){
-    
+  if(n%2!=0){ 
   return (n/2)-0.5 ;
   }else{
     return n/2;
